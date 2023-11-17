@@ -23,12 +23,12 @@ const Header = () => {
           </div>
 
           <div className="right">
-            <div className="signIn">
-              Signin / Signup
+            <div className="signin">
+              Sign In / Sign Up
+              </div>
               <div className="cart">
                 Cart
               </div>
-            </div>
           </div>
     </div>
   )

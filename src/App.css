@@ -13,33 +13,49 @@ body
 .headerSection{
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(57, 57, 185);
+}
+
+.title{
+  padding: 5px;
 }
 
 .center ul li {
   list-style: none;
   display: inline-flex;
   margin: 0px 10px;
+  padding: 10px 5px;
 }
-
+ 
 .left{
   flex: 0.2;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .center{
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .searchBar{
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  padding: 10px;
 }
 
 .right{
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
+  padding:  10px 10px;
 }
 
+.bannerBox{
+  margin: 10px 0px;
+}
+
+.bannerBox img{
+  width: 100%;
+}
