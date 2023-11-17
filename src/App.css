@@ -9,3 +9,37 @@ body
 {
   border: 5px solid black;
 }
+
+.headerSection{
+  display: flex;
+  justify-content: space-between;
+}
+
+.center ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
+}
+
+.left{
+  flex: 0.2;
+  border: 1px solid black;
+}
+
+.center{
+  flex: 1;
+  border: 1px solid black;
+}
+
+.searchBar{
+  flex: 1;
+  border: 1px solid black;
+}
+
+.right{
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+

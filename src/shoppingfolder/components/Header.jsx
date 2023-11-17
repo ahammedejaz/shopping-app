@@ -5,14 +5,31 @@ const Header = () => {
     <div className='headerSection'>
           <div className="left">
             <div className="title">
-                <h2>Shopping Mall</h2>
+                <h2>Lifestyle</h2>
             </div>
           </div>
             
           <div className="center">
-            
+            <ul>
+              <li>Woman</li>
+              <li>Men</li>
+              <li>Children</li>
+              <li>Beauty</li>
+            </ul>
           </div>
-          <div className="right"></div>
+
+          <div className="searchBar">
+            <input type="text" placeholder='Search...' />
+          </div>
+
+          <div className="right">
+            <div className="signIn">
+              Signin / Signup
+              <div className="cart">
+                Cart
+              </div>
+            </div>
+          </div>
     </div>
   )
 }
